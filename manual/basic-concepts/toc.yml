@@ -4,3 +4,5 @@
   href: nodes.md
 - name: Graphs
   href: graphs.md
+- name: Variables
+  href: variables.md

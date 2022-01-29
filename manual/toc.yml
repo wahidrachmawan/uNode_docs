@@ -5,3 +5,5 @@
 - name: Basic Concepts
   href: basic-concepts/toc.yml
   # topicHref: basic-concepts/basic-concepts.md
+- name: Node Reference
+  href: node-reference/toc.yml

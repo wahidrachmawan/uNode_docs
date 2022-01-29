@@ -2,10 +2,14 @@
 
 ## Installation
 
-Download and import plugin unitypackage from the Asset Store. After installation all plugin components it will be located in ”%ProjectFolder%/Assets/uNode” folder. Plugin options will be located in ”%ProjectFolder%/uNodeData” folder.
+Download and import plugin unitypackage from the Asset Store. After installation all plugin components it will be located in `%ProjectFolder%/Assets/uNode` folder. Plugin options will be located in `%ProjectFolder%/uNodeData` folder.
 
-Note: After importing uNode whether you first install or updating you will need to restart Unity Editor to properly initialize uNode.
 
+> [!IMPORTANT]
+> After importing uNode whether you first install or updating you will need to restart Unity Editor to properly initialize uNode.
+
+> [!NOTE]
+> uNode includes some additional `System.*.dll` and `Microsoft.CodeAnalysis.dll` libraries that originally provides in NuGet. They are located under `uNode/Editor/Compiler/Roslyn`. If other packages use these libraries (e.g. Unity Collections package using System.Runtime.CompilerServices.Unsafe.dll), to avoid conflicts, please delete the DLL under `uNode/Editor/Compiler/Roslyn`.
 ## Updating uNode
 
 If you are updating or re-installing uNode into a Unity project where uNode was already being used, it is recommended that you perform a clean re-install of uNode as detailed below. 

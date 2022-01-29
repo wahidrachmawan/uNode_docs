@@ -45,19 +45,19 @@ Legend:<br>
 ⚬	= Partially Supported<br>
 
 
-| Features        | Class Component | Class Asset      | Class Singleton | C# Class          | C# Struct    | uNode Runtime |
-| :---------------- | ----------------- | ------------------ | ----------------- | ------------------- | -------------- | --------------- |
-| Variable        | ✅              | ✅               | ✅              | ✅                | ✅           | ✅            |
-| Property        | ✅              | ✅               | ✅              | ✅                | ✅           | ✅            |
-| Function        | ✅              | ✅               | ✅              | ✅                | ✅           | ✅            |
-| Constructor     | ❌              | ❌               | ❌              | ✅                | ✅           | ❌            |
-| State Graph     | ✅              | ❌               | ✅              | ✅                | ❌           | ✅            |
-| Live Edit       | ✅              | ✅               | ✅              | ❌                | ❌           | ✅            |
-| Reflection Mode | ✅              | ✅               | ✅              | ❌                | ❌           | ✅            |
-| Attributes      | ⚬              | ⚬               | ⚬              | ✅                | ✅           | ❌            |
-| Modifiers       | ⚬              | ⚬               | ⚬              | ✅                | ✅           | ❌            |
-| Inheritance     | MonoBehaviour   | ScriptableObject | MonoBehaviour   | ✅ Any C# Classes | ❌           | MonoBehaviour |
-| Interfaces      | Graph Interface | Graph Interface  | Graph Interface | C# Interface      | C# Interface | ❌            |
+| Features            | Class Component |   Class Asset    | Class Singleton |     C# Class      |  C# Struct   | uNode Runtime |
+| :------------------ | :-------------: | :--------------: | :-------------: | :---------------: | :----------: | :-----------: |
+| **Variable**        |       ✅        |        ✅        |       ✅        |        ✅         |      ✅      |      ✅       |
+| **Property**        |       ✅        |        ✅        |       ✅        |        ✅         |      ✅      |      ✅       |
+| **Function**        |       ✅        |        ✅        |       ✅        |        ✅         |      ✅      |      ✅       |
+| **Constructor**     |       ❌        |        ❌        |       ❌        |        ✅         |      ✅      |      ❌       |
+| **State Graph**     |       ✅        |        ❌        |       ✅        |        ✅         |      ❌      |      ✅       |
+| **Live Edit**       |       ✅        |        ✅        |       ✅        |        ❌         |      ❌      |      ✅       |
+| **Reflection Mode** |       ✅        |        ✅        |       ✅        |        ❌         |      ❌      |      ✅       |
+| **Attributes**      |       ⚬        |        ⚬        |       ⚬        |        ✅         |      ✅      |      ❌       |
+| **Modifiers**       |       ⚬        |        ⚬        |       ⚬        |        ✅         |      ✅      |      ❌       |
+| **Inheritance**     |  MonoBehaviour  | ScriptableObject |  MonoBehaviour  | ✅ Any C# Classes |      ❌      | MonoBehaviour |
+| **Interfaces**      | Graph Interface | Graph Interface  | Graph Interface |   C# Interface    | C# Interface |      ❌       |
 
 Features Description
 
