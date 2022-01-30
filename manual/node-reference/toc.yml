@@ -1,2 +1,9 @@
-- name: If
-  href: if.md
+- name: Set Value
+  href: set-value.md
+- name: Decision Making
+  href: decision-making.md
+  items:
+  - name: If
+    href: if.md
+  - name: Switch
+    href: switch.md
