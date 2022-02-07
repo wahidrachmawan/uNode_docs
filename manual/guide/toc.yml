@@ -1,0 +1,4 @@
+- name: Creating Custom Nodes
+  href: creating-custom-node.md
+- name: Class Component Guide
+  href: class-component/toc.yml

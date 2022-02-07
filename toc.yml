@@ -4,3 +4,6 @@
 - name: Scripting API
   href: api/
   homepage: api/index.md
+- name: Changelog
+  href: changelog/
+  homepage: changelog/CHANGELOG.md

@@ -4,6 +4,14 @@
   href: installing.md
 - name: Basic Concepts
   href: basic-concepts/toc.yml
+- name: Guide
+  href: guide/toc.yml
+- name: Features
+  href: features/toc.yml
+- name: Graph Reference
+  href: graph-reference/toc.yml
   # topicHref: basic-concepts/basic-concepts.md
 - name: Node Reference
   href: node-reference/toc.yml
+- name: Examples
+  href: examples/toc.yml

@@ -1,0 +1,6 @@
+- name: Creating a new Class Component graph
+  href: create-graph.md
+- name: Attach a graph file to a Game Object
+  href: attach-graph.md
+- name: Opening graph for editing
+  href: opening.md

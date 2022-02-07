@@ -1,6 +1,6 @@
 # If
 
-![](../../images/node_reference_if.png)
+![](../../images/node-reference/if.png)
 
 The `If` node Identifies which statement to run based on the value of a Boolean expression.
 
@@ -11,7 +11,7 @@ The `Finished` port will be executed once after the `True` or `False` port has b
 ## Examples
 
 Graph:
-![](../../images/node_reference_if_example1.PNG)
+![](../../images/node-reference/if_example1.PNG)
 
 Generated script:
 ```cs

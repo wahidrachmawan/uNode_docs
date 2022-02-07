@@ -1,0 +1,6 @@
+- name: Class Asset
+  href: class-asset/toc.yml
+- name: Class Component
+  href: class-component/toc.yml
+- name: Macro
+  href: macro/toc.yml

@@ -1,12 +1,13 @@
 # Do While
 
-![](../../images/node_reference_dowhile.png)
+![](../../images/node-reference/dowhile.png)
 
+The `DoWhile` node executes a Body node repeatedly until a `Condition` evaluates to false.
 
 ## Examples
 
 Graph:
-![](../../images/node_reference_dowhile_example1.png)
+![](../../images/node-reference/dowhile_example1.png)
 
 Generated script:
 ```cs

@@ -23,6 +23,8 @@
       },
       {
         "files": [
+          "changelog/**.md",
+          "changelog/**/toc.yml",
           "manual/**.md",
           "manual/**/toc.yml",
           "toc.yml",
@@ -52,7 +54,8 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+	  	"templates/unode"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

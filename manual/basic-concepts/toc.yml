@@ -6,3 +6,9 @@
   href: graphs.md
 - name: Variables
   href: variables.md
+- name: Functions
+  href: functions.md
+- name: Properties
+  href: properties.md
+- name: Constructors
+  href: constructors.md

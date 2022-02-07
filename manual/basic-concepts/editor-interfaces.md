@@ -83,9 +83,8 @@ The Item Selector Interface:
 You can filter by the item name that’s match to ‘Contains’, ‘Start with’, ‘Equals’, or ‘Ends with’ the search text.
 <br>Or filter by Item kind like Function, Variable, Property or Type.
 
-### Tips
-
-- Use capital text for quicker search e.g. writing ‘GC‘ if you want to find ‘GetComponent‘. Also it even allowing for partial words, such as ‘GComInC‘ to find ‘GetComponentInChildren‘
-- Quickly array search by typing with endings ‘[]’ e.g. writing ‘str[]‘ will show array of string, or writting ‘str[] get‘ will show a Get method for array of string.
-- You can also select deep items by Right Clicking on item that have '>' icon at the right end of each item.
-- Mark frequently item (variable, function, property, namespaces, etc) as favorites so you can easy find it on 'Favorites' group.
+> [!TIP]
+> - Use capital text for quicker search e.g. writing ‘GC‘ if you want to find ‘GetComponent‘. Also it even allowing for partial words, such as ‘GComInC‘ to find ‘GetComponentInChildren‘
+> - Quickly array search by typing with endings ‘[]’ e.g. writing ‘str[]‘ will show array of string, or writting ‘str[] get‘ will show a Get method for array of string.
+> - You can also select deep items by Right Clicking on item that have '>' icon at the right end of each item.
+> - Mark frequently item (variable, function, property, namespaces, etc) as favorites so you can easy find it on 'Favorites' group.

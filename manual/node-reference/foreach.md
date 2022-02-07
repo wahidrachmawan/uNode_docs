@@ -1,13 +1,14 @@
 # Foreach
 
-![](../../images/node_reference_foreach.png)
+![](../../images/node-reference/foreach.png)
 
 The Foreach node repeats Body port for each element in an array or an object collection.
 
 ## Examples
 
 Graph:
-![](../../images/node_reference_foreach_example1.png)
+
+![](../../images/node-reference/foreach_example1.png)
 
 Generated script:
 ```cs

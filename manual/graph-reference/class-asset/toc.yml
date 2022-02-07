@@ -1,0 +1,4 @@
+- name: Creating a new Class Asset graph
+  href: create-graph.md
+- name: Creating a Graph Asset instance
+  href: instance-graph-asset.md

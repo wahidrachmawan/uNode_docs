@@ -1,6 +1,6 @@
 # SetValue
 
-![](../../images/node_reference_set.png)
+![](../../images/node-reference/set.png)
 
 The SetValue node is a node to Set value of a variable, and property.
 
@@ -8,7 +8,7 @@ The SetValue node is a node to Set value of a variable, and property.
 
 Graph:
 
-![](../../images/node_reference_set_example1.PNG)
+![](../../images/node-reference/set_example1.PNG)
 
 Generated script:
 ```cs
