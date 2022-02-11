@@ -14,7 +14,7 @@ To attach a `Class Component` graph to a Game Object you can drag the graph file
 2. (Optional) If the Inspector window for your selected GameObject doesn't appear, press CTRL + 3 (macOS: Cmd + 3), or go to Window > General > Inspector. 
 3. In the GameObject's Inspector window, select Add Component. The Components menu opens.
 4. To add a `Class Component`, in the Components menu, go to uNode and select `uNode Spawner`. Or, use the search bar to find the 'uNode Spawner' component. 
-   ![](../../../images/adding-spawner.png)
-5. The new uNode Spawner component appears in the Inspector window for your GameObject:
    ![](../../../images/guide/adding-spawner.png)
+5. The new uNode Spawner component appears in the Inspector window for your GameObject:
+   ![](../../../images/guide/adding-spawner1.png)
 6. Assign the target graph with the Class Component graph. You can assign it by browse the available graphs by clicking on the ![](../../../images/guide/object-ref.png) or by drag & drop the graph file to the 'Graph' field.

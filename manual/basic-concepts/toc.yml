@@ -4,6 +4,8 @@
   href: nodes.md
 - name: Graphs
   href: graphs.md
+- name: Data Types
+  href: data-types.md
 - name: Variables
   href: variables.md
 - name: Functions

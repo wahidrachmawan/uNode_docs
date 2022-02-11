@@ -4,7 +4,7 @@ One of uNode key components is the graph. Graphs are visual representations of t
 
 ## Runtime Graphs
 
-The Runtime Graphs can be referenced by other graphs directly without needed you to compile it into c# scripts. Runtime Graph can be run in both reflection and native c#. When the graph is not compiled, the graph is run with reflection which is slow compared to native but allow you to live edit it in playmode. And if the graph has been compiled the graph will be run with native c# which give you a performance boost but in return this doesn’t support live edit graph.
+The Runtime Graphs can be referenced by other graphs directly without needed you to compile it into c# scripts. Runtime Graph can be run in both reflection and native c#. When the graph is not compiled, the graph is run with reflection which is slow compared to native but allow you to live edit it in playmode (You can also press save at the top left of the editor to save your changes during playmode). And if the graph has been compiled the graph will be run with native c# which give you a performance boost but in return this doesn’t support live edit graph.
 
 Here is the graph that is categorized as Runtime Graphs:
 
@@ -15,12 +15,14 @@ Here is the graph that is categorized as Runtime Graphs:
 
 ## C# Graphs
 
-The C# Graphs are designed to create a pure c# scripts, this allow you to create from game logic to editor extensions but like its name the c# graphs can only be used by compiling it into c# scripts. With this types of graphs you can create from game logic to editor extension and this is the only graph that can be compiled to c# script without dependent on uNode Visual Scripting.
+The C# Graphs are designed to create a pure c# scripts, this allow you to create from game logic to editor extensions but like its name the c# graphs can only be used by compiling it into c# scripts. This is the only graph that, when compiled to c# script can be used completely separately from the uNode Visual Scripting asset.
 
 Here is the graph that is categorized as C# Graphs:
 
 - C# Class
 - C# Struct
+- C# Enum
+- C# Interface
 
 ## Types of Graphs
 
@@ -33,7 +35,7 @@ Here is the list of avalaible graphs types:
 | Class Component | A runtime graph that's inherit from MonoBehaviour                                                                                                                                                            |
 | Class Asset     | A runtime graph that's inherit from ScriptableAsset                                                                                                                                                          |
 | Class Singleton | A runtime graph that's inherit from MonoBehaviour but act like Static Classes<br> This graph can be accessed from anywhere but it is guarantee that this graph only one instance can exist at the same time. |
-| uNode Runtime   | A runtime graph like a Class Component graph but this graph that can be attached dirrectly to GameObject and can reference any object in the current scene that this graph is live                           |
+| uNode Runtime   | A runtime graph like Class Component but added directly to GameObjects via 'add component'. It lives as a hidden child of the object and can reference any object in its current scene                            |
 | C# Class        | A c# graph that's intended for visually creating c# class. It can be inherited from any of C# Scripts and implementing any of C# Interfaces                                                                  |
 | C# Struct       | A c# graph that's intended for visually creating c# struct. It can implementing any of C# Interfaces                                                                                                         |
 

@@ -1,6 +1,6 @@
 # Null Check
 
-![](../../images/null-check.png)
+![](../../images/node-reference/null-check.png)
 
 The `Null Check` node compare the input data port if it's null or not.
 

@@ -48,8 +48,7 @@ There's two ways for converting Flow Graph into unode graphs.
   <br>-After that you need to manually find and fix the variable that have wrong type.
 	> [!NOTE]
 	> We do have a predicted type based on `Value` of that variable and based on connection to the variable in your graph. <br>The first assigned type is our predicted type by using the analizer, the type may `incorrect` and you must change it to correct value so that uNode can correctly convert your graph.<br> You can change it by clicking on the variable type or selecting the available predicted types.
-1. Click on `Convert` to start converting it, the result graph will be placed in `Heirarchy` window
-
+6. Click on `Convert` to start converting it, the result graph will be placed in `Heirarchy` window
 
 ## Converting State Graph into uNode graph
 

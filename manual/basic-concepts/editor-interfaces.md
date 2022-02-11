@@ -65,6 +65,7 @@ The Minimap is element for showing many nodes like a radar for quick navigation 
 | SHIFT + Left Click       | Inspect node, variable, function, and properties.     | Node, Left Panel |
 | SHIFT + Left Click       | Select nodes                                          | Canvas           |
 | SHIFT + ALT + Left Click | Delete nodes                                          | Canvas           |
+| SHIFT + ALT + Hold Left Click | Draw on canvas to cut connections / Delete circled nodes                                           | Canvas           |
 
 ## Item Selector
 
@@ -87,4 +88,4 @@ You can filter by the item name that’s match to ‘Contains’, ‘Start with�
 > - Use capital text for quicker search e.g. writing ‘GC‘ if you want to find ‘GetComponent‘. Also it even allowing for partial words, such as ‘GComInC‘ to find ‘GetComponentInChildren‘
 > - Quickly array search by typing with endings ‘[]’ e.g. writing ‘str[]‘ will show array of string, or writting ‘str[] get‘ will show a Get method for array of string.
 > - You can also select deep items by Right Clicking on item that have '>' icon at the right end of each item.
-> - Mark frequently item (variable, function, property, namespaces, etc) as favorites so you can easy find it on 'Favorites' group.
+> - Mark frequently used items (variable, function, property, namespaces, etc) as favorites so you can easily find them in 'Favorites' group..

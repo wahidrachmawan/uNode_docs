@@ -1,2 +1,4 @@
 - name: Creating a Hello, World!
   href: creating-hello-word.md
+- name: Capturing player inputs using the new Input System
+  href: capturing-player-input-new.md

@@ -4,6 +4,8 @@
   href: debugging.md
 - name: Preferences
   href: preferences.md
+- name: Smart Node Connections
+  href: smart-connection.md
 - name: C# Parser add-ons
   href: cs-parser.md
 - name: Unity Visual Scripting converter add-ons

@@ -4,7 +4,7 @@ To create a new Class Asset graph, you can use the Graph Creator windows found o
 
 ![](../../../images/graph_reference_class-asset_create-graph1.png)
 
-- In Graph Creator window, make sure that the `Graph` is set to `Class Component`.
+- In Graph Creator window, make sure that the `Graph` is set to `Class Asset`.
 - Assign the `Icon` to set the graph Icon, or leave it none to use default icon instead.
 - Assign the `Namespace` to set the graph namespace, when you leave it blank the graph will be placed on `Generated Type` namespace when you're searching the graph and when you're compiling the graph, the namespace will be `MaxyGames.Generated`
 - You can add a new `Using Namespace` to make all type in those namespace available when searning a nodes, types, etc.
